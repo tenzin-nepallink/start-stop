@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       python: 3.7
     commands:
-      - uname -a
+      - lsb_release -a
       - apt-get install awscli -y
       - pip install boto3
 
