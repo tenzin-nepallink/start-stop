@@ -7,7 +7,7 @@ phases:
     commands:
       - apt update
       - apt-get install awscli -y
-      - pip install boto3
+      #- pip install boto3
 
   build:
     commands:
