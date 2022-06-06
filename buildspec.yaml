@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.7
+    commands:
+      - apt-get install awscli -y
+      - pip install boto3
+
+  build:
+    commands:
+      - aws lambda invoke --function-name test
