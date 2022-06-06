@@ -6,7 +6,7 @@ phases:
       python: 3.7
     commands:
       - lsb_release -a
-      - apt-get install awscli -y
+      - sudo apt-get install awscli -y
       - pip install boto3
 
   build:
