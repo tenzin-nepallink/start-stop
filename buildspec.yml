@@ -11,4 +11,4 @@ phases:
 
   build:
     commands:
-      - aws lambda invoke --function-name test out --log-type Tail
+      - aws lambda invoke --function-name start-stop-instances out --log-type Tail
